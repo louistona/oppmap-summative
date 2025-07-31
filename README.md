@@ -29,7 +29,7 @@ A digital platform that helps entrepreneurs identify undereserved regions in Afr
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/louistona/oppmap-summative.git
    cd opportunitymap
    ```
 
