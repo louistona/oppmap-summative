@@ -179,9 +179,6 @@ REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Support
-
-For support, email support@opportunitymap.com or create an issue in the GitHub repository.
 
 ## Roadmap
 
