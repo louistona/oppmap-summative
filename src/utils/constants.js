@@ -1,0 +1,68 @@
+export const CHALLENGE_CATEGORIES = {
+  EDUCATION: 'education',
+  HEALTH: 'health',
+  AGRICULTURE: 'agriculture',
+  FINANCE: 'finance',
+  INFRASTRUCTURE: 'infrastructure'
+}
+
+export const CATEGORY_LABELS = {
+  [CHALLENGE_CATEGORIES.EDUCATION]: 'Education',
+  [CHALLENGE_CATEGORIES.HEALTH]: 'Health',
+  [CHALLENGE_CATEGORIES.AGRICULTURE]: 'Agriculture',
+  [CHALLENGE_CATEGORIES.FINANCE]: 'Finance',
+  [CHALLENGE_CATEGORIES.INFRASTRUCTURE]: 'Infrastructure'
+}
+
+export const SEVERITY_LEVELS = {
+  LOW: 1,
+  MODERATE: 2,
+  SIGNIFICANT: 3,
+  HIGH: 4,
+  CRITICAL: 5
+}
+
+export const SEVERITY_LABELS = {
+  [SEVERITY_LEVELS.LOW]: 'Low',
+  [SEVERITY_LEVELS.MODERATE]: 'Moderate',
+  [SEVERITY_LEVELS.SIGNIFICANT]: 'Significant',
+  [SEVERITY_LEVELS.HIGH]: 'High',
+  [SEVERITY_LEVELS.CRITICAL]: 'Critical'
+}
+
+export const SOLUTION_STATUS = {
+  PENDING: 'pending',
+  APPROVED: 'approved',
+  REJECTED: 'rejected'
+}
+
+export const USER_ROLES = {
+  USER: 'user',
+  ADMIN: 'admin'
+}
+
+// Map configuration
+export const MAP_CONFIG = {
+  DEFAULT_CENTER: [-1.2921, 36.8219], // Nairobi, Kenya (central Africa)
+  DEFAULT_ZOOM: 5,
+  MIN_ZOOM: 3,
+  MAX_ZOOM: 18
+}
+
+// Category colors for map markers
+export const CATEGORY_COLORS = {
+  [CHALLENGE_CATEGORIES.EDUCATION]: '#3B82F6',
+  [CHALLENGE_CATEGORIES.HEALTH]: '#EF4444',
+  [CHALLENGE_CATEGORIES.AGRICULTURE]: '#10B981',
+  [CHALLENGE_CATEGORIES.FINANCE]: '#F59E0B',
+  [CHALLENGE_CATEGORIES.INFRASTRUCTURE]: '#8B5CF6'
+}
+
+// Severity colors
+export const SEVERITY_COLORS = {
+  [SEVERITY_LEVELS.LOW]: '#10B981',
+  [SEVERITY_LEVELS.MODERATE]: '#F59E0B',
+  [SEVERITY_LEVELS.SIGNIFICANT]: '#EF4444',
+  [SEVERITY_LEVELS.HIGH]: '#DC2626',
+  [SEVERITY_LEVELS.CRITICAL]: '#7F1D1D'
+}
